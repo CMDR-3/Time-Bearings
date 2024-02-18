@@ -1,5 +1,8 @@
 package com.zetalasis.timebearings;
 
+import com.zetalasis.timebearings.blocks.TBBlocks;
+import com.zetalasis.timebearings.items.TBItemGroups;
+import com.zetalasis.timebearings.items.TBItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,5 +15,9 @@ public class TimeBearings implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
+
+		TBItemGroups.RegisterItemGroups();
+		TBBlocks.RegisterBlocks();
+		TBItems.RegisterItems();
 	}
 }

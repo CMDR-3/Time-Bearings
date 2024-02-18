@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "time-bearings:block/clockwork_table_side",
+    "up": "time-bearings:block/clockwork_table_top"
+  }
+}
