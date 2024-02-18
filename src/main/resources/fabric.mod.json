@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "time-bearings",
+	"version": "${version}",
+	"name": "Time Bearings",
+	"description": "tardis go WOOOOM WOOOM WAUUUUUH WAUUUUUUHH NEEEEEEEEEEEEUUUUU",
+	"authors": [
+		"Zetalasis",
+		"LoxiGoose"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-V3.0",
+	"icon": "assets/time-bearings/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.zetalasis.timebearings.TimeBearings"
+		],
+		"client": [
+			"com.zetalasis.timebearings.TimeBearingsClient"
+		],
+		"fabric-datagen": [
+			"com.zetalasis.timebearings.TimeBearingsDataGenerator"
+		]
+	},
+	"mixins": [
+		"time-bearings.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
