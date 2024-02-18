@@ -12,16 +12,12 @@ import net.minecraft.util.Identifier;
 
 public class TBItems {
     public static final Item CLOCKWORK_UTILITIES = register("clockwork_utilities", new Item(new FabricItemSettings()));
+    public static final Item DEBUG_WAND = register("debug_wand", new Item(new FabricItemSettings()));
 
     private static Item register(String name, Item item)
     {
         return Registry.register(Registries.ITEM, new Identifier(TimeBearings.MOD_ID, name), item);
     };
-
-    private static void ToolsTabInit(FabricItemGroupEntries entries)
-    {
-        entries.add(CLOCKWORK_UTILITIES);
-    }
 
     public static void RegisterItems()
     {
