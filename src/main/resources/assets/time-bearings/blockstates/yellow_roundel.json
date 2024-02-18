@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "time-bearings:block/yellow_roundel",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "time-bearings:block/yellow_roundel"
+    },
+    "facing=south": {
+      "model": "time-bearings:block/yellow_roundel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "time-bearings:block/yellow_roundel",
+      "y": 270
+    }
+  }
+}

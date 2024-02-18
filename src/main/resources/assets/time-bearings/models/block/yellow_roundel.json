@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "time-bearings:block/roundel_front",
+    "side": "time-bearings:block/roundel_side",
+    "top": "time-bearings:block/roundel_side"
+  }
+}
