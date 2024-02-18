@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
-	"id": "time-bearings",
-	"version": "${version}",
+	"id": "${mod_id}",
+	"version": "${mod_version}-${minecraft_version}",
 	"name": "Time Bearings",
 	"description": "tardis go WOOOOM WOOOM WAUUUUUH WAUUUUUUHH NEEEEEEEEEEEEUUUUU",
 	"authors": [
@@ -23,19 +23,16 @@
 			"com.zetalasis.timebearings.TimeBearingsClient"
 		],
 		"fabric-datagen": [
-			"com.zetalasis.timebearings.TimeBearingsDataGenerator"
+			"com.zetalasis.timebearings.datagen.TBDataGen"
 		]
 	},
 	"mixins": [
 		"time-bearings.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.7",
-		"minecraft": "~1.20.1",
-		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=${java_version}",
+		"fabric-api": ">=${fabric_version}"
 	}
 }
