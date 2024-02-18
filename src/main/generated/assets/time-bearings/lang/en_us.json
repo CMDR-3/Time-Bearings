@@ -1,0 +1,8 @@
+{
+  "block.time-bearings.clockwork_table": "Clockwork Table",
+  "block.time-bearings.tardis_exterior": "Tardis Exterior",
+  "item.time-bearings.clockwork_utilities": "Clockwork Utilities",
+  "item.time-bearings.debug_wand": "Debug Wand",
+  "itemgroup.exteriors": "Time Bearings Exteriors",
+  "itemgroup.tools": "Time Bearings Tools"
+}
