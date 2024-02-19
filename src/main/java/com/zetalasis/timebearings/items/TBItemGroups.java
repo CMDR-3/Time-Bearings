@@ -19,11 +19,13 @@ public class TBItemGroups {
                         entries.accept(TBBlocks.CLOCKWORK_TABLE);
                     }).build());
 
-    public static final CreativeModeTab EXTERIORS_GROUP = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+    public static final CreativeModeTab TARDIS_GROUP = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             new ResourceLocation(TimeBearings.MOD_ID, "exteriors"),
             FabricItemGroup.builder().title(Component.translatable("itemgroup.exteriors"))
                     .icon(() -> new ItemStack(TBBlocks.TARDIS_EXTERIOR)).displayItems((displayContext, entries) -> {
                         entries.accept(TBBlocks.TARDIS_EXTERIOR);
+                        entries.accept(TBBlocks.YELLOW_ROUNDEL);
+                        entries.accept(TBBlocks.GRATE);
                     }).build());
 
     public static void RegisterItemGroups()

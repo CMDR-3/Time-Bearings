@@ -16,8 +16,12 @@ public class TBBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block TARDIS_EXTERIOR = registerBlock("tardis_exterior",
             new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK)));
+    //public static final Block YELLOW_ROUNDEL = registerBlock("yellow_roundel",
+            //new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
     public static final Block YELLOW_ROUNDEL = registerBlock("yellow_roundel",
-            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
+            new TBRoundel(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
+    public static final Block GRATE = registerBlock("grate",
+            new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).nonOpaque()));
 
     private static Block registerBlock(String name, Block block)
     {

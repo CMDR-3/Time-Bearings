@@ -116,6 +116,7 @@ dependencies {
 	// Runtime Dependencies
 	modRuntimeOnly "mezz.jei:jei-${project.minecraft_version}-fabric:${project.jei_version}"
 	modRuntimeOnly "maven.modrinth:sodium:${project.sodium_version}"
+	//modRuntimeOnly "curse.maven:iris-455508:${project.iris_version}"
 	modRuntimeOnly "curse.maven:iris-455508:${project.iris_version}"
 
 	// Uncomment the following line to enable the deprecated Fabric API modules. 

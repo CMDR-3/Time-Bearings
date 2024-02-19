@@ -17,6 +17,8 @@ public class TBLangProvider extends FabricLanguageProvider {
         translationBuilder.add(TBItems.DEBUG_WAND, "Debug Wand");
         translationBuilder.add(TBBlocks.CLOCKWORK_TABLE, "Clockwork Table");
         translationBuilder.add(TBBlocks.TARDIS_EXTERIOR, "Tardis Exterior");
+        translationBuilder.add(TBBlocks.YELLOW_ROUNDEL, "Yellow Roundel");
+        translationBuilder.add(TBBlocks.GRATE, "Grate");
         translationBuilder.add("itemgroup.tools", "Time Bearings Tools");
         translationBuilder.add("itemgroup.exteriors", "Time Bearings Exteriors");
     }
